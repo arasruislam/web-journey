@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+/* 1rem = 16px */
+body {
+   margin: 0 5rem;
+   padding: 10px 0;
+}
+
+#header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 1px solid rgb(239, 239, 239);
+   padding-bottom: 8px;
+}
+.navbar-left {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+}
+.navbar-left img {
+   width: 50px;
+}
+.navbar-right button {
+   margin-left: 5px;
+   border: none;
+   padding: 5px 8px;
+   font-weight: 500;
+   border-radius: 20px;
+   cursor: pointer;
+   transition: ease-in;
+}
+.signup {
+   background-color: dodgerblue;
+}
+.login {
+   background-color: coral;
+}
+
+/* hover effect */
+.signup:hover {
+   background-color: rgb(71, 163, 255);
+   transform: scale(105%);
+}
+.login:hover {
+   background-color: rgb(246, 124, 79);
+   transform: scale(105%);
+}
+
+.navbar-center ul {
+   display: flex;
+   margin: 0 auto;
+   align-items: center;
+   gap: 1rem;
+}
+.navbar-center ul li {
+   list-style: none;
+   color: rgb(58, 58, 58);
+}
